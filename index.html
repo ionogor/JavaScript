@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Weather</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ </head>
+ <body>
+
+    <div class="card">
+
+        <div class="control">
+            <H1>Weather</H1>
+        </div>
+        <div class="send">
+            <input type="text" id="cityName">
+            <button id="search">
+                Search
+            </button>
+    
+        </div>
+        <div class="data">
+            <p>City <span id="city">Kiev</span></p>
+            <hr>
+            <p>Temperature <span id="tmp">18°</span></p>
+            <hr>
+            <p>Humidity <span id="hum">60%</span></p>
+            <hr>
+        </div>
+    </div>
+
+    <div class="type">
+        <span id="c">°C</span>
+        <span id="f">°F</span>
+    </div>
+    <script src="app.js"></script>
+ </body>
+ </html>

@@ -1,0 +1,104 @@
+:root{
+    --card-color:#EDF5FC;
+    --btn-color:#f4a261;
+}
+
+
+.card{
+    background-color: var(--card-color);
+    width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, input,button{
+    font-family: monospace;
+}
+.control h1{
+    font-size: 40px;
+    text-align: center;
+    color: var(--btn-color);
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.send button{
+    margin-left: 20px;
+}
+button{
+    background-color: var(--btn-color);
+    cursor: pointer;
+    border: none;
+}
+input{
+    border: var(--btn-color);
+}
+#cityName, button{
+    height: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 20px;
+   
+   
+}
+.data span{
+    color: var(--btn-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+.type{
+    background-color: var(--card-color);
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.5);
+
+    width: 120px;
+    padding: 10px 15px;
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left:50%; 
+    transform: translate(-50%);
+    margin-bottom: 20px;
+}
+
+#c{
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+#f{
+    cursor: pointer;
+}
+
+.active{
+    color: red;
+}
